@@ -1,0 +1,211 @@
+{
+  "uid" : "c79b53d69c99e36e",
+  "name" : "Get data",
+  "fullName" : "example.scenarios.DataTest.getDataTest",
+  "historyId" : "8f3f966fb36b947ba3619191975a0a3",
+  "time" : {
+    "start" : 1659015997914,
+    "stop" : 1659015999191,
+    "duration" : 1277
+  },
+  "description" : "Some scenario description.",
+  "descriptionHtml" : "<p>Some scenario description.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "beforeAll",
+    "time" : {
+      "start" : 1659015997496,
+      "stop" : 1659015997496,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "Some scenario description.",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "When request for data",
+      "time" : {
+        "start" : 1659015997914,
+        "stop" : 1659015999191,
+        "duration" : 1277
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Get data",
+        "time" : {
+          "start" : 1659015999124,
+          "stop" : 1659015999191,
+          "duration" : 67
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "3d11ffc941eb3993",
+          "name" : "Request headers",
+          "source" : "3d11ffc941eb3993.txt",
+          "type" : "text/plain",
+          "size" : 54
+        }, {
+          "uid" : "a51bffc759e197de",
+          "name" : "GET https://datausa.io/api/data?drilldowns=Nation&measures=Population",
+          "source" : "a51bffc759e197de.txt",
+          "type" : "application/json",
+          "size" : 0
+        }, {
+          "uid" : "901b7bdc07710495",
+          "name" : "Response headers",
+          "source" : "901b7bdc07710495.txt",
+          "type" : "text/plain",
+          "size" : 1331
+        }, {
+          "uid" : "c73691f9ba02fadb",
+          "name" : "Response received in 533 ms with status: 200",
+          "source" : "c73691f9ba02fadb.txt",
+          "type" : "application/json",
+          "size" : 1927
+        } ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 4,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 1,
+      "attachmentsCount" : 4,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Then the response is correct",
+      "time" : {
+        "start" : 1659015999191,
+        "stop" : 1659015999191,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Response - verification",
+        "time" : {
+          "start" : 1659015999191,
+          "stop" : 1659015999191,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Response status is 200",
+          "time" : {
+            "start" : 1659015999191,
+            "stop" : 1659015999191,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Correct response content type is true",
+          "time" : {
+            "start" : 1659015999191,
+            "stop" : 1659015999191,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 2,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 6,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "data"
+  }, {
+    "name" : "tag",
+    "value" : "regression"
+  }, {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:example.scenarios.DataTest]/[method:getDataTest()]"
+  }, {
+    "name" : "host",
+    "value" : "QH-WIN-KSL"
+  }, {
+    "name" : "thread",
+    "value" : "7268@QH-WIN-KSL.ForkJoinPool-1-worker-3(18)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "example.scenarios.DataTest"
+  }, {
+    "name" : "testClass",
+    "value" : "example.scenarios.DataTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "getDataTest"
+  }, {
+    "name" : "suite",
+    "value" : "Data"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "data", "regression" ]
+  },
+  "source" : "c79b53d69c99e36e.json",
+  "parameterValues" : [ ]
+}

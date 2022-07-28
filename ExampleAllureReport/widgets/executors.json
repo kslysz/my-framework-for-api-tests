@@ -1,0 +1,5 @@
+[ {
+  "name" : "Gradle",
+  "type" : "gradle",
+  "buildName" : "my-framework-for-api-tests"
+} ]

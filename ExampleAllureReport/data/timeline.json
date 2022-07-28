@@ -1,0 +1,149 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "QH-WIN-KSL",
+    "children" : [ {
+      "name" : "7268@QH-WIN-KSL.ForkJoinPool-1-worker-3(18)",
+      "children" : [ {
+        "name" : "Wait assertion",
+        "uid" : "3c08bdb43f7c3b42",
+        "parentUid" : "d4d3af28e6d8bd868f64d4239636819c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1659015937098,
+          "stop" : 1659015997302,
+          "duration" : 60204
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Soft assertions - custom",
+        "uid" : "c7cc1df251680c53",
+        "parentUid" : "d4d3af28e6d8bd868f64d4239636819c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1659015997340,
+          "stop" : 1659015997371,
+          "duration" : 31
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Do not execute! - skipped test",
+        "uid" : "6754b8154505fa5e",
+        "parentUid" : "d4d3af28e6d8bd868f64d4239636819c",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1659015997480,
+          "stop" : 1659015997480,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Wait assertion optional",
+        "uid" : "677eefdb6c34f44e",
+        "parentUid" : "d4d3af28e6d8bd868f64d4239636819c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1659015896602,
+          "stop" : 1659015936925,
+          "duration" : 40323
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Soft assertions - native",
+        "uid" : "fcf6f7bf32eb000",
+        "parentUid" : "d4d3af28e6d8bd868f64d4239636819c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1659015997424,
+          "stop" : 1659015997424,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Do not execute! - aborted test",
+        "uid" : "e289d38b787542b1",
+        "parentUid" : "d4d3af28e6d8bd868f64d4239636819c",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1659015997464,
+          "stop" : 1659015997464,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Soft assertions - custom (as nested step)",
+        "uid" : "7e232934e3b05ee3",
+        "parentUid" : "d4d3af28e6d8bd868f64d4239636819c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1659015997387,
+          "stop" : 1659015997402,
+          "duration" : 15
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Get data",
+        "uid" : "c79b53d69c99e36e",
+        "parentUid" : "d4d3af28e6d8bd868f64d4239636819c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1659015997914,
+          "stop" : 1659015999191,
+          "duration" : 1277
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d4d3af28e6d8bd868f64d4239636819c"
+    } ],
+    "uid" : "0781d5d6f433265dfa46c9a0d404ed95"
+  } ]
+}

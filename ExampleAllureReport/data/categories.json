@@ -1,0 +1,85 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "[Timeout: 60 sec] time ==> expected: <true> but was: <false>",
+      "children" : [ {
+        "name" : "Wait assertion",
+        "uid" : "3c08bdb43f7c3b42",
+        "parentUid" : "a7da0c4efc782a211b1b1f7900b5174e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1659015937098,
+          "stop" : 1659015997302,
+          "duration" : 60204
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a7da0c4efc782a211b1b1f7900b5174e"
+    }, {
+      "name" : "Multiple Failures (1 failure)\r\n\torg.opentest4j.AssertionFailedError: Int ==> expected: <2> but was: <1>",
+      "children" : [ {
+        "name" : "Soft assertions - custom",
+        "uid" : "c7cc1df251680c53",
+        "parentUid" : "a5d6cab0365aa1c9829f891586795f3d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1659015997340,
+          "stop" : 1659015997371,
+          "duration" : 31
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Soft assertions - custom (as nested step)",
+        "uid" : "7e232934e3b05ee3",
+        "parentUid" : "a5d6cab0365aa1c9829f891586795f3d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1659015997387,
+          "stop" : 1659015997402,
+          "duration" : 15
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Soft assertions - native",
+        "uid" : "fcf6f7bf32eb000",
+        "parentUid" : "a5d6cab0365aa1c9829f891586795f3d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1659015997424,
+          "stop" : 1659015997424,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a5d6cab0365aa1c9829f891586795f3d"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

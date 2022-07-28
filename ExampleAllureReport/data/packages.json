@@ -1,0 +1,161 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "example.scenarios",
+    "children" : [ {
+      "name" : "WaitAssertionsTest",
+      "children" : [ {
+        "name" : "waitAssertionOptionalTest",
+        "uid" : "677eefdb6c34f44e",
+        "parentUid" : "3eb39cbb9ac724315c446ae480f99daf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1659015896602,
+          "stop" : 1659015936925,
+          "duration" : 40323
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "waitAssertionTest",
+        "uid" : "3c08bdb43f7c3b42",
+        "parentUid" : "3eb39cbb9ac724315c446ae480f99daf",
+        "status" : "failed",
+        "time" : {
+          "start" : 1659015937098,
+          "stop" : 1659015997302,
+          "duration" : 60204
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3eb39cbb9ac724315c446ae480f99daf"
+    }, {
+      "name" : "SoftAssertionsTest",
+      "children" : [ {
+        "name" : "customSoftAssertionsTest",
+        "uid" : "c7cc1df251680c53",
+        "parentUid" : "3ed0e657233eaa0ad0f66755bfab85e4",
+        "status" : "failed",
+        "time" : {
+          "start" : 1659015997340,
+          "stop" : 1659015997371,
+          "duration" : 31
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "customSoftAssertionsStepTest",
+        "uid" : "7e232934e3b05ee3",
+        "parentUid" : "3ed0e657233eaa0ad0f66755bfab85e4",
+        "status" : "failed",
+        "time" : {
+          "start" : 1659015997387,
+          "stop" : 1659015997402,
+          "duration" : 15
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "nativeSoftAssertionsTest",
+        "uid" : "fcf6f7bf32eb000",
+        "parentUid" : "3ed0e657233eaa0ad0f66755bfab85e4",
+        "status" : "failed",
+        "time" : {
+          "start" : 1659015997424,
+          "stop" : 1659015997424,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3ed0e657233eaa0ad0f66755bfab85e4"
+    }, {
+      "name" : "SkippedTest",
+      "children" : [ {
+        "name" : "abortedTest",
+        "uid" : "e289d38b787542b1",
+        "parentUid" : "5990b26ef4f6d3ffda72678e66489917",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1659015997464,
+          "stop" : 1659015997464,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "skippedTest",
+        "uid" : "6754b8154505fa5e",
+        "parentUid" : "5990b26ef4f6d3ffda72678e66489917",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1659015997480,
+          "stop" : 1659015997480,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5990b26ef4f6d3ffda72678e66489917"
+    }, {
+      "name" : "DataTest",
+      "children" : [ {
+        "name" : "getDataTest",
+        "uid" : "c79b53d69c99e36e",
+        "parentUid" : "02d12de345f06232eb6afc54067c9c39",
+        "status" : "passed",
+        "time" : {
+          "start" : 1659015997914,
+          "stop" : 1659015999191,
+          "duration" : 1277
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "02d12de345f06232eb6afc54067c9c39"
+    } ],
+    "uid" : "example.scenarios"
+  } ]
+}

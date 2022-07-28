@@ -1,0 +1,160 @@
+{
+  "f93e2fe1cbf9db4efba3d34c438261aa" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fcf6f7bf32eb000",
+      "status" : "failed",
+      "statusDetails" : "Multiple Failures (1 failure)\r\n\torg.opentest4j.AssertionFailedError: Int ==> expected: <2> but was: <1>",
+      "time" : {
+        "start" : 1659015997424,
+        "stop" : 1659015997424,
+        "duration" : 0
+      }
+    } ]
+  },
+  "8f3f966fb36b947ba3619191975a0a3" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c79b53d69c99e36e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1659015997914,
+        "stop" : 1659015999191,
+        "duration" : 1277
+      }
+    } ]
+  },
+  "ef1eb10e6fee8e20eaa1f952e28bfd86" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3c08bdb43f7c3b42",
+      "status" : "failed",
+      "statusDetails" : "[Timeout: 60 sec] time ==> expected: <true> but was: <false>",
+      "time" : {
+        "start" : 1659015937098,
+        "stop" : 1659015997302,
+        "duration" : 60204
+      }
+    } ]
+  },
+  "749d41db07a40a5492a48e2369a230e2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "677eefdb6c34f44e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1659015896602,
+        "stop" : 1659015936925,
+        "duration" : 40323
+      }
+    } ]
+  },
+  "430a24ae2b5fd3b2f294f670d2d0ebf2" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c7cc1df251680c53",
+      "status" : "failed",
+      "statusDetails" : "Multiple Failures (1 failure)\r\n\torg.opentest4j.AssertionFailedError: Int ==> expected: <2> but was: <1>",
+      "time" : {
+        "start" : 1659015997340,
+        "stop" : 1659015997371,
+        "duration" : 31
+      }
+    } ]
+  },
+  "2c47abc4158067907cda913f748ca2ba" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7e232934e3b05ee3",
+      "status" : "failed",
+      "statusDetails" : "Multiple Failures (1 failure)\r\n\torg.opentest4j.AssertionFailedError: Int ==> expected: <2> but was: <1>",
+      "time" : {
+        "start" : 1659015997387,
+        "stop" : 1659015997402,
+        "duration" : 15
+      }
+    } ]
+  },
+  "6b367522ed4de024d061ee4e84ef0b04" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6754b8154505fa5e",
+      "status" : "skipped",
+      "statusDetails" : "for demonstration purposes",
+      "time" : {
+        "start" : 1659015997480,
+        "stop" : 1659015997480,
+        "duration" : 0
+      }
+    } ]
+  },
+  "3a23169fe19a5c150c54f56726a00154" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e289d38b787542b1",
+      "status" : "skipped",
+      "statusDetails" : "void example.scenarios.SkippedTest.abortedTest() is @Disabled",
+      "time" : {
+        "start" : 1659015997464,
+        "stop" : 1659015997464,
+        "duration" : 0
+      }
+    } ]
+  }
+}

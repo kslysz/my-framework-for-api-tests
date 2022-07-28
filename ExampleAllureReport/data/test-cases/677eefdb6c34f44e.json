@@ -1,0 +1,82 @@
+{
+  "uid" : "677eefdb6c34f44e",
+  "name" : "Wait assertion optional",
+  "fullName" : "example.scenarios.WaitAssertionsTest.waitAssertionOptionalTest",
+  "historyId" : "749d41db07a40a5492a48e2369a230e2",
+  "time" : {
+    "start" : 1659015896602,
+    "stop" : 1659015936925,
+    "duration" : 40323
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "beforeAll",
+    "time" : {
+      "start" : 1659015896373,
+      "stop" : 1659015896398,
+      "duration" : 25
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "example"
+  }, {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:example.scenarios.WaitAssertionsTest]/[method:waitAssertionOptionalTest()]"
+  }, {
+    "name" : "host",
+    "value" : "QH-WIN-KSL"
+  }, {
+    "name" : "thread",
+    "value" : "7268@QH-WIN-KSL.ForkJoinPool-1-worker-3(18)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "example.scenarios.WaitAssertionsTest"
+  }, {
+    "name" : "testClass",
+    "value" : "example.scenarios.WaitAssertionsTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "waitAssertionOptionalTest"
+  }, {
+    "name" : "suite",
+    "value" : "Wait assertions"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "example" ]
+  },
+  "source" : "677eefdb6c34f44e.json",
+  "parameterValues" : [ ]
+}

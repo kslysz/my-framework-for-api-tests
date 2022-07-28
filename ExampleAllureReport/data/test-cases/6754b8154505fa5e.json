@@ -1,0 +1,68 @@
+{
+  "uid" : "6754b8154505fa5e",
+  "name" : "Do not execute! - skipped test",
+  "fullName" : "example.scenarios.SkippedTest.skippedTest",
+  "historyId" : "6b367522ed4de024d061ee4e84ef0b04",
+  "time" : {
+    "start" : 1659015997480,
+    "stop" : 1659015997480,
+    "duration" : 0
+  },
+  "description" : "",
+  "status" : "skipped",
+  "statusMessage" : "for demonstration purposes",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "example"
+  }, {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:example.scenarios.SkippedTest]/[method:skippedTest()]"
+  }, {
+    "name" : "host",
+    "value" : "QH-WIN-KSL"
+  }, {
+    "name" : "thread",
+    "value" : "7268@QH-WIN-KSL.ForkJoinPool-1-worker-3(18)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "example.scenarios.SkippedTest"
+  }, {
+    "name" : "testClass",
+    "value" : "example.scenarios.SkippedTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "skippedTest"
+  }, {
+    "name" : "suite",
+    "value" : "Skipped scenarios"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "example" ]
+  },
+  "source" : "6754b8154505fa5e.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,81 @@
+[ {
+  "uid" : "fcf6f7bf32eb000",
+  "name" : "Soft assertions - native",
+  "time" : {
+    "start" : 1659015997424,
+    "stop" : 1659015997424,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "c7cc1df251680c53",
+  "name" : "Soft assertions - custom",
+  "time" : {
+    "start" : 1659015997340,
+    "stop" : 1659015997371,
+    "duration" : 31
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "c79b53d69c99e36e",
+  "name" : "Get data",
+  "time" : {
+    "start" : 1659015997914,
+    "stop" : 1659015999191,
+    "duration" : 1277
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3c08bdb43f7c3b42",
+  "name" : "Wait assertion",
+  "time" : {
+    "start" : 1659015937098,
+    "stop" : 1659015997302,
+    "duration" : 60204
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "7e232934e3b05ee3",
+  "name" : "Soft assertions - custom (as nested step)",
+  "time" : {
+    "start" : 1659015997387,
+    "stop" : 1659015997402,
+    "duration" : 15
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "e289d38b787542b1",
+  "name" : "Do not execute! - aborted test",
+  "time" : {
+    "start" : 1659015997464,
+    "stop" : 1659015997464,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "6754b8154505fa5e",
+  "name" : "Do not execute! - skipped test",
+  "time" : {
+    "start" : 1659015997480,
+    "stop" : 1659015997480,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "677eefdb6c34f44e",
+  "name" : "Wait assertion optional",
+  "time" : {
+    "start" : 1659015896602,
+    "stop" : 1659015936925,
+    "duration" : 40323
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

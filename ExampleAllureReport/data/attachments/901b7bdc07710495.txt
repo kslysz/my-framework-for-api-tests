@@ -1,0 +1,28 @@
+Server: cloudflare
+vary: Accept-Encoding
+access-control-allow-headers: DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type
+x-frame-options: SAMEORIGIN
+x-download-options: noopen
+last-modified: Mon, 02 May 2022 17:25:47 GMT
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=8gfew2GzUN34q8mXwXl%2BQ0ugb8JFbmT57%2F4EZX0v9blrXUKu66HZ1I7jnGJXqHBaeWvUMzfetjlNPb0CcBoyTndE6r6LFoZIyzSWi0TFN5M7iDTGYGxxpmg%2BkBQ%3D"}],"group":"cf-nel","max_age":604800}
+Age: 113638
+content-language: en
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+CF-RAY: 731e0fe60efeb37a-PRG
+Connection: keep-alive
+access-control-allow-methods: GET, POST, OPTIONS
+strict-transport-security: max-age=15552000; includeSubDomains
+Date: Thu, 28 Jul 2022 13:46:38 GMT
+access-control-allow-origin: *
+CF-Cache-Status: HIT
+access-control-allow-credentials: true
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Cache-Control: max-age=1800
+x-cache-key: GET/api/data?drilldowns=Nation&measures=Population
+x-xss-protection: 1; mode=block
+x-content-type-options: nosniff
+x-dns-prefetch-control: off
+x-cache-status: HIT
+etag: W/"55b-jEIUyvQphH/gM3DVlQl2pEdoLeo"
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
